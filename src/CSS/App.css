@@ -1,0 +1,220 @@
+:root {
+  --font: "Rubik", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+  font-family: var(--font);
+  height: auto;
+}
+
+.cart-container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /* align-items: center; */
+  background: #000;
+}
+
+.ShoppingCartCost-container{
+  width: 50%;
+  padding: 1em;
+  max-width: 25rem;;
+  border: 1px solid #707070;
+background: #0F0F0F;
+}
+.calculate-style{
+  display:  flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.prise-container{
+  display:  flex;
+  align-items: center;
+
+}
+.profit-container p ,.profit-container div{
+  color: #00D5FF;
+}
+.profit-container{
+  border-bottom: 1px solid #707070;
+  padding-bottom: 0.3em;
+}
+.toman-persian{
+  color: #E6E6E6;
+text-align: center;
+font-size: 0.9rem;
+font-style: normal;
+font-weight: 400;
+line-height: 3.125rem; /* 333.333% */
+letter-spacing: 0.00938rem;
+padding-right: 0.3em;
+}
+.cost{
+  color: #E6E6E6;
+text-align: center;
+font-size: 1.3rem;
+font-style: normal;
+font-weight: 400;
+line-height: 3.125rem; /* 200% */
+letter-spacing: 0.01563rem;
+}
+.ShoppingCartCost-text{
+  color: #E6E6E6;
+text-align: right;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 3.125rem; /* 250% */
+letter-spacing: 0.0125rem;
+}
+
+.sign-btn{
+  color: #00D5FF;
+text-align: center;
+font-family: inherit;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0.00938rem;
+border: 1px solid #00D5FF;
+background-color: transparent;
+padding: 0.5em 1em;
+cursor: pointer;
+}
+.sign-btn:focus,.sign-btn:hover{
+  background-color: #00D5FF;
+  color: #0F0F0F;
+}
+.sign-input{
+  color: #E6E6E6;
+  font-size: 0.9375rem;
+  background-color: transparent;
+border: 1px solid #E6E6E6;
+outline: none;
+padding: 0.51em;
+width: 70%;
+}
+.discount-btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.ShoppingCartCost-bule-button{
+  width: 100%;
+  padding: 0.2em 1em;
+  cursor: pointer;
+  border: none;
+  background: #00D5FF;
+  color: #2E2E2E;
+text-align: center;
+font-family: inherit;
+outline: none;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.75rem; /* 141.935% */
+margin-bottom: 1em;
+border: 1px solid #00D5FF;
+transition: all ease-in-out 
+;
+}
+
+.ShoppingCartCost-bule-button:hover{
+  background-color: transparent;
+  border: 1px solid #00D5FF;
+  color: #00D5FF;
+}
+
+/* ---------------------------------------------------------- */
+.MyBaskets-container{
+  width: 50%;
+  max-width: 62.5rem;;
+  background: #0F0F0F;
+  padding: 2em;
+}
+
+.mybasket-heading{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #3A3A3A;
+  padding: 0.3em;
+}
+
+.mybasket-label{
+  color: #E6E6E6;
+  text-align: right;
+  font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 3.125rem; /* 250% */
+letter-spacing: 0.0125rem;
+}
+.mybasket-img{
+  padding:  0.3em;
+  width: 1.875rem;
+height: 1.875rem;
+
+}
+
+.ItemsInMyBasket{
+  background: #2E2E2E;
+/* background-color: red; */
+  padding: 1em;
+  margin-bottom: 1.5em ;
+}
+
+
+
+.MyBasket-containerr{
+  display: flex;
+  border: 2.5px solid #00D5FF;
+  background: rgba(0, 213, 255, 0.06);
+  justify-content: space-between;
+align-items: center;
+padding: 0.7em;
+margin: 1em 0;
+}
+
+.product{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.mybasket div{
+  font-size:1rem;
+}
+
+.number-of-product{
+  font-size:1rem;
+  color: #E6E6E6;
+text-align: center;
+font-style: normal;
+font-weight: 400;
+line-height: 3.125rem; /* 200% */
+letter-spacing: 0.01563rem;
+
+}
+
+.product-img{
+  width: 100%;
+  max-width: 7.03125rem;
+}
+
+.product-name{
+  color: #E6E6E6;
+font-size: 0.7rem;
+font-style: normal;
+font-weight: 400;
+line-height: 3.125rem; /* 250% */
+letter-spacing: 0.0125rem;
+}

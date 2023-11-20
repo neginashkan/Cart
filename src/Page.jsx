@@ -1,9 +1,12 @@
 import './CSS/App.css'
+import Cart from "./components/Cart"
 function Page() {
 
   return (
     <>
-    <h1>hiii</h1>
+    {/* Header goes here */}
+    <Cart/>
+    {/* Footer goes here */}
     </>
   )
 }
