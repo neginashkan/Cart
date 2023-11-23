@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* @media (max-width: 1000px) {
+  
+  :root{
+    font-size: 15px;
+  }
+
+}
+
+@media (max-width: 900px) {
+  
+  :root{
+    font-size: 15px;
+  }
+
+}
+
+@media (max-width: 800px) {
+  
+  :root{
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  
+  :root{
+    font-size: 10px;
+  }
+
+}
+
+@media (max-width: 350px) {
+  
+  :root{
+    font-size: 9px;
+  }
+
+}
+@media (max-width: 300px) {
+  
+  :root{
+    font-size: 8px;
+  }
+
+} */
