@@ -16,6 +16,7 @@ body {
   display: flex;
   width: 100%;
   justify-content: center;
+  margin-top: 2em;
   /* align-items: center; */
   background: #000;
 }
@@ -25,7 +26,8 @@ body {
   padding: 1em;
   max-width: 25rem;;
   border: 1px solid #707070;
-background: #0F0F0F;
+  background: #0F0F0F;
+height: 100%;
 }
 .calculate-style{
   display:  flex;
@@ -107,7 +109,7 @@ width: 70%;
 }
 
 .ShoppingCartCost-bule-button{
-  width: 100%;
+  width: 90%;
   padding: 0.2em 1em;
   cursor: pointer;
   border: none;
@@ -166,7 +168,6 @@ height: 1.875rem;
 
 .ItemsInMyBasket{
   background: #2E2E2E;
-/* background-color: red; */
   padding: 1em;
   margin-bottom: 1.5em ;
 }
@@ -218,3 +219,69 @@ font-weight: 400;
 line-height: 3.125rem; /* 250% */
 letter-spacing: 0.0125rem;
 }
+
+
+
+/* Styles for screens smaller than or equal to 600px */
+
+@media (max-width: 1000px) {
+  
+  :root{
+    font-size: 15px;
+  }
+
+}
+
+@media (max-width: 900px) {
+  
+  :root{
+    font-size: 15px;
+  }
+  .cart-container{
+    flex-direction: column;
+  }
+  .ShoppingCartCost-container{
+    order: 1;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+  .MyBaskets-container{
+    margin: 0 auto;
+    order: 0;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+}
+
+@media (max-width: 800px) {
+  
+  :root{
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  
+  :root{
+    font-size: 10px;
+  }
+
+}
+
+@media (max-width: 350px) {
+  
+  :root{
+    font-size: 9px;
+  }
+
+}
+@media (max-width: 300px) {
+  
+  :root{
+    font-size: 8px;
+  }
+
+}
+

@@ -6,7 +6,6 @@ function Page() {
     <>
     {/* Header goes here */}
     <Cart/>
-    {/* Footer goes here */}
     </>
   )
 }
